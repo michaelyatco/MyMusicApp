@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyMusicApp</string>
+
+    <!-- Category name for Now Playing [CHAR LIMIT=20] -->
+    <string name="category_now_playing">Now Playing</string>
+
+    <!-- Category name for the Artists [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for the Genre [CHAR LIMIT=20] -->
+    <string name="category_genre">Genre</string>
+
+    <!-- Category name for the Payment [CHAR LIMIT=20] -->
+    <string name="category_payment">Payment</string>
+
+    <!-- Category name for the Main [CHAR LIMIT=20] -->
+    <string name="category_main">Return to Home Page</string>
+
+    <!-- Explanation for the Now Playing Page -->
+    <string name="now_playing_summary">This is where a user would see the current song being played.</string>
+
+    <!-- Explanation for the Artists Page -->
+    <string name="artists_summary">This is where a user would see a list of all the artists within the app.</string>
+
+    <!-- Explanation for the Genre Page -->
+    <string name="genre_summary">This is where a user would see a list of all the genres within the app.</string>
+
+    <!-- Explanation for the Payment Page -->
+    <string name="payment_summary">This is where a user would make the payments necessary to enhance their experience with the music app - whether for purchasing new songs or subscribing to a music streaming service. I would try to incorporate a payment API like Stripe - https://stripe.com/docs/mobile/android. In my opinion, it would not be necessary to have any other Intents on this page besides returning to the home page.</string>
+
+</resources>
