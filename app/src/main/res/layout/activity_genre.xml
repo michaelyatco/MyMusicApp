@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,10 +8,10 @@
     tools:context="com.example.android.mymusicapp.GenreActivity">
 
     <TextView
-        android:id="@+id/artist_text"
+        android:id="@+id/genre_text"
         style="@style/MainActionStyle"
         android:background="@color/colorPrimary"
-        android:text="@string/genre_summary"/>
+        android:text="@string/genre_summary" />
 
     <TextView
         android:id="@+id/artists"
